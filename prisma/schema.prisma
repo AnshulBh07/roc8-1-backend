@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://roc8MERN1db_owner:9Yx8VbOelIJv@ep-noisy-sun-a12klzn9.ap-southeast-1.aws.neon.tech/roc8MERN1db?sslmode=require"
 }
 
 // prisma is basically like mongoose models but this can function for SQL too
